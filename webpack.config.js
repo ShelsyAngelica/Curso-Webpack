@@ -24,6 +24,7 @@ module.exports = {
                 test:/\.css|\.styl$/i,
                 use: [MiniCssExtractPlugin.loader,
                     'css-loader',
+                    'stylus-loader'
                 ],
             }
         ]
