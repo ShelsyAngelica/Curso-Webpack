@@ -12,6 +12,7 @@ module.exports = {
         assetModuleFilename:'assets/images/[hash][ext][query]'
     }, 
     mode: 'development', // aca indicamos que este archivo tiene la configuracion no mas la necesaria para modo de desarrollo 
+    watch: true,
     resolve: {
         extensions: ['.js'],
         alias: {
